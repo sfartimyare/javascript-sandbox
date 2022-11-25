@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 4px solid brown;
+}
+
+.wrapper > * {
+    padding: 20px;
+}
+
+.page-header {
+    background-color: #592e83;
+}
+
+.page-footer {
+    background-color: #9984d4;
+}
+
+.page-main {
+    flex-grow: 1;
+    background-color: #331e4d;
+}
+
+
+
+
+
+
+
+
+
+
+/* .page-main .container {
+    display: flex;
+    border: 4px purple solid;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    align-self: center;
+} */
